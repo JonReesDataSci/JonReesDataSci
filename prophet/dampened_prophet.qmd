@@ -1,0 +1,34 @@
+#  Prophet timeseries (Using dampening to constrain trends)
+
+Prophet, while an excellent tool for timeseries forecasting, has a bad habbit of sending predictions into orbit based on data that has a pronounced increase or decrease in the latter part of the data. (Considering the effect the COVID-19 pandemic had on almost all timeseries data, this could prove problematic)
+Fortunately this can be constrained using a technique known as dampening. This constrains the trend element of Prophets forecasts, keeping the predicted patterns looking far more reasonable. 
+
+```{python}
+import pandas as pd
+import numpy
+from prophet import Prophet
+```
+```{python}
+
+```
+```{python}
+
+```
+```{python}
+
+```
+```{python}
+
+```
+```{python}
+
+```
+```{python}
+
+```
+```{python}
+
+```
+```{python}
+
+```
